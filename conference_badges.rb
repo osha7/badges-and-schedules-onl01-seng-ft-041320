@@ -22,5 +22,5 @@ end
     return room_assignments
   end
   
-  def printer(tasks)
+  def printer(names)
       
