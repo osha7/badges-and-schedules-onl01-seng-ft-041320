@@ -16,12 +16,12 @@
     names.each_with_index do |name, index|
      room_assignments << "Hello, #{name}! You'll be assigned to room #{index+1}!"
     end
-    return room_assignments
+    room_assignments
   end
   
   def printer(names)
-     badges = batch_badge_creator(names)
-     room_assignments = assign_rooms(names)
+     bananas = batch_badge_creator(names)
+     kittens = assign_rooms(names)
      
      badges
   end
