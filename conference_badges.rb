@@ -16,7 +16,7 @@ end
     room_assignments = []
     counter = 1
     names.each_with_index do |name|
-     "Hello, #{name}! You'll be assigned to room #{counter}!"
+     room_ass
       counter =+ 1 
     end
     return room_assignments
