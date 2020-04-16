@@ -8,8 +8,8 @@
     names.each do |name|
      badges << badge_maker(name)
     end
-    return badges
-end
+    badges
+  end
       
   def assign_rooms(names)
     room_assignments = []
