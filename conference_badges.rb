@@ -23,7 +23,8 @@ end
   end
   
   def printer(names)
-     
+     badges = batch_badge_creator(names)
+     room_assignments = assign_rooms(names)
   end
 
       
