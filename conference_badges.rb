@@ -23,7 +23,7 @@
      bananas = batch_badge_creator(names)
      kittens = assign_rooms(names)
      
-     badges
+     bananas
   end
   
 
