@@ -22,8 +22,9 @@
   def printer(names)
      bananas = batch_badge_creator(names)
      kittens = assign_rooms(names)
-     
-     bananas
+    
+    bananas
+    kittens
   end
   
 
