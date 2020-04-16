@@ -20,11 +20,13 @@
   end
   
   def printer(names)
-     bananas = batch_badge_creator(names)
-     kittens = assign_rooms(names)
+    batch_badge_creator(names).each do |badge|
+      puts badge
+    end
+    assign_rooms(names).each do |room|
+      puts room
+    end
     
-    puts bananas
-    puts kittens
   end
   
 
